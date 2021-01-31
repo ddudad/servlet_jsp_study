@@ -1,0 +1,86 @@
+29-Jan-2021 19:53:42.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.41
+29-Jan-2021 19:53:43.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Dec 3 2020 11:43:00 UTC
+29-Jan-2021 19:53:43.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.41.0
+29-Jan-2021 19:53:43.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+29-Jan-2021 19:53:43.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+29-Jan-2021 19:53:43.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+29-Jan-2021 19:53:43.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11.0.10
+29-Jan-2021 19:53:43.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.10+8-LTS-162
+29-Jan-2021 19:53:43.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+29-Jan-2021 19:53:43.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\donal\Desktop\apache-tomcat-9.0.41
+29-Jan-2021 19:53:43.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\donal\Desktop\apache-tomcat-9.0.41
+29-Jan-2021 19:53:43.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2021 19:53:43.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2021 19:53:43.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2021 19:53:43.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\donal\Desktop\apache-tomcat-9.0.41\conf\logging.properties
+29-Jan-2021 19:53:43.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2021 19:53:43.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2021 19:53:43.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2021 19:53:43.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+29-Jan-2021 19:53:43.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\donal\Desktop\apache-tomcat-9.0.41
+29-Jan-2021 19:53:43.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\donal\Desktop\apache-tomcat-9.0.41
+29-Jan-2021 19:53:43.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\donal\Desktop\apache-tomcat-9.0.41\temp
+29-Jan-2021 19:53:43.033 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.25]을(를) 로드했습니다.
+29-Jan-2021 19:53:43.035 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+29-Jan-2021 19:53:43.036 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+29-Jan-2021 19:53:43.043 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1g  21 Apr 2020]
+29-Jan-2021 19:53:43.415 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+29-Jan-2021 19:53:43.625 INFO [main] org.apache.catalina.startup.Catalina.load [915] 밀리초 내에 서버가 초기화되었습니다.
+29-Jan-2021 19:53:43.838 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+29-Jan-2021 19:53:43.842 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.41]
+29-Jan-2021 19:53:43.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\docs]을(를) 배치합니다.
+29-Jan-2021 19:53:44.336 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [125] 밀리초가 소요됐습니다.
+29-Jan-2021 19:53:44.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\docs]에 대한 배치가 [507] 밀리초에 완료되었습니다.
+29-Jan-2021 19:53:44.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\examples]을(를) 배치합니다.
+29-Jan-2021 19:53:44.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\examples]에 대한 배치가 [450] 밀리초에 완료되었습니다.
+29-Jan-2021 19:53:44.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\host-manager]을(를) 배치합니다.
+29-Jan-2021 19:53:44.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\host-manager]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+29-Jan-2021 19:53:44.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\manager]을(를) 배치합니다.
+29-Jan-2021 19:53:44.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\manager]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+29-Jan-2021 19:53:44.917 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\ROOT]을(를) 배치합니다.
+29-Jan-2021 19:53:44.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\ROOT]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+29-Jan-2021 19:53:44.959 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+29-Jan-2021 19:53:44.976 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1325] 밀리초 내에 시작되었습니다.
+29-Jan-2021 19:58:00.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.41
+29-Jan-2021 19:58:00.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Dec 3 2020 11:43:00 UTC
+29-Jan-2021 19:58:00.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.41.0
+29-Jan-2021 19:58:00.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+29-Jan-2021 19:58:00.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+29-Jan-2021 19:58:00.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+29-Jan-2021 19:58:00.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11.0.10
+29-Jan-2021 19:58:00.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.10+8-LTS-162
+29-Jan-2021 19:58:00.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+29-Jan-2021 19:58:00.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\donal\Desktop\apache-tomcat-9.0.41
+29-Jan-2021 19:58:00.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\donal\Desktop\apache-tomcat-9.0.41
+29-Jan-2021 19:58:00.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2021 19:58:00.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2021 19:58:00.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2021 19:58:00.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\donal\Desktop\apache-tomcat-9.0.41\conf\logging.properties
+29-Jan-2021 19:58:00.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2021 19:58:00.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2021 19:58:00.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2021 19:58:00.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+29-Jan-2021 19:58:00.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\donal\Desktop\apache-tomcat-9.0.41
+29-Jan-2021 19:58:00.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\donal\Desktop\apache-tomcat-9.0.41
+29-Jan-2021 19:58:00.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\donal\Desktop\apache-tomcat-9.0.41\temp
+29-Jan-2021 19:58:00.645 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.25]을(를) 로드했습니다.
+29-Jan-2021 19:58:00.646 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+29-Jan-2021 19:58:00.646 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+29-Jan-2021 19:58:00.654 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1g  21 Apr 2020]
+29-Jan-2021 19:58:01.002 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+29-Jan-2021 19:58:01.171 INFO [main] org.apache.catalina.startup.Catalina.load [838] 밀리초 내에 서버가 초기화되었습니다.
+29-Jan-2021 19:58:01.233 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+29-Jan-2021 19:58:01.233 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.41]
+29-Jan-2021 19:58:01.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\docs]을(를) 배치합니다.
+29-Jan-2021 19:58:01.669 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [108] 밀리초가 소요됐습니다.
+29-Jan-2021 19:58:01.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\docs]에 대한 배치가 [442] 밀리초에 완료되었습니다.
+29-Jan-2021 19:58:01.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\examples]을(를) 배치합니다.
+29-Jan-2021 19:58:02.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\examples]에 대한 배치가 [389] 밀리초에 완료되었습니다.
+29-Jan-2021 19:58:02.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\host-manager]을(를) 배치합니다.
+29-Jan-2021 19:58:02.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\host-manager]에 대한 배치가 [40] 밀리초에 완료되었습니다.
+29-Jan-2021 19:58:02.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\manager]을(를) 배치합니다.
+29-Jan-2021 19:58:02.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\manager]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+29-Jan-2021 19:58:02.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\ROOT]을(를) 배치합니다.
+29-Jan-2021 19:58:02.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\donal\Desktop\apache-tomcat-9.0.41\webapps\ROOT]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+29-Jan-2021 19:58:02.206 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+29-Jan-2021 19:58:02.217 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1042] 밀리초 내에 시작되었습니다.

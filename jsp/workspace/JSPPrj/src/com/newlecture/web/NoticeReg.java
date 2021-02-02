@@ -10,25 +10,25 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //Annotation방법 URL 매핑
-@WebServlet("/hello")
-public class Nana extends HttpServlet {
+@WebServlet("/notice-reg")
+public class NoticeReg extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//request는 브라우저->WAS
+		//response는 WAS->브라우저
 		
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
+				
+		//request.setCharacterEncoding("UTF-8");
 		
+		//입력을 위한
 		PrintWriter out = response.getWriter();
 		
-		String cnt_ = request.getParameter("cnt");
+		String title = request.getParameter("title");
+		String content = request.getParameter("content");
 		
-		int cnt=100;
-		if(cnt_!=null && !cnt_.equals("")) {
-			cnt=Integer.parseInt(cnt_);
-		}
-		
-		for(int i=0; i<cnt; i++) {
-			out.println((i+1)+": 안녕!!<br>");
-		}
+		out.println(title);
+		out.println(content);
 	}
 }

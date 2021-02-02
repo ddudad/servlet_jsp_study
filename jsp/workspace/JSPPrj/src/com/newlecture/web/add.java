@@ -6,12 +6,11 @@ import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest; 
 import javax.servlet.http.HttpServletResponse;
 
-//Annotation방법 URL 매핑
-@WebServlet("/hello")
-public class Nana extends HttpServlet {
+@WebServlet("/add")
+public class add extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
@@ -20,15 +19,18 @@ public class Nana extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		String cnt_ = request.getParameter("cnt");
+		String x_ = request.getParameter("x");
+		String y_ = request.getParameter("y");
 		
-		int cnt=100;
-		if(cnt_!=null && !cnt_.equals("")) {
-			cnt=Integer.parseInt(cnt_);
+		int x=0, y=0;
+		
+		if(!x_.equals("")) {
+			x = Integer.parseInt(x_);
+		}
+		if(!y_.equals("")) {
+			y = Integer.parseInt(y_);
 		}
 		
-		for(int i=0; i<cnt; i++) {
-			out.println((i+1)+": 안녕!!<br>");
-		}
+		out.println(x+y);
 	}
 }

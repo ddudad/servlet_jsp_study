@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest; 
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/add")
-public class add extends HttpServlet{
+@WebServlet("/calc")
+public class Calc extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
@@ -21,6 +21,7 @@ public class add extends HttpServlet{
 		
 		String x_ = request.getParameter("x");
 		String y_ = request.getParameter("y");
+		String op = request.getParameter("operator");
 		
 		int x=0, y=0;
 		
@@ -31,6 +32,15 @@ public class add extends HttpServlet{
 			y = Integer.parseInt(y_);
 		}
 		
-		out.println(x+y);
+		int result = 0;
+		
+		if(op.equals("µ¡¼À")) {
+			result=x+y;
+		}
+		else {
+			result=x-y;
+		}
+		
+		out.println(result);
 	}
 }

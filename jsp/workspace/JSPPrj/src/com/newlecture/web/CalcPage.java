@@ -64,13 +64,13 @@ public class CalcPage extends HttpServlet{
 		out.write("				<td><input type=\"submit\" name=\"operator\" value=\"CE\"/></td>");
 		out.write("				<td><input type=\"submit\" name=\"operator\" value=\"C\"/></td>");
 		out.write("				<td><input type=\"submit\" name=\"operator\" value=\"BS\"/></td>");
-		out.write("				<td><input type=\"submit\" name=\"operator\" value=\"¡À\"/></td>");
+		out.write("				<td><input type=\"submit\" name=\"operator\" value=\"/\"/></td>");
 		out.write("			</tr>");
 		out.write("			<tr>");
 		out.write("				<td><input type=\"submit\" name=\"value\" value=\"7\"/></td>");
 		out.write("				<td><input type=\"submit\" name=\"value\" value=\"8\"/></td>");
 		out.write("				<td><input type=\"submit\" name=\"value\" value=\"9\"/></td>");
-		out.write("				<td><input type=\"submit\" name=\"operator\" value=\"X\"/></td>");
+		out.write("				<td><input type=\"submit\" name=\"operator\" value=\"*\"/></td>");
 		out.write("			</tr>");
 		out.write("			<tr>");
 		out.write("				<td><input type=\"submit\" name=\"value\" value=\"4\"/></td>");

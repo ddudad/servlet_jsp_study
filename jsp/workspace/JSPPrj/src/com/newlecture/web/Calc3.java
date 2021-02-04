@@ -3,6 +3,9 @@ package com.newlecture.web;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,11 +23,12 @@ public class Calc3 extends HttpServlet{
 		//cookie 받아올 변수 선언
 		Cookie[] cookies = request.getCookies();
 
-		String value = request.getParameter("v");
+		String value = request.getParameter("value");
 		String operator = request.getParameter("operator");
 		String dot = request.getParameter("dot");
 		
 		String exp = "";
+		
 		if(cookies!=null) {
 			for(Cookie c : cookies) {
 				if(c.getName().equals("exp")) {
@@ -34,10 +38,31 @@ public class Calc3 extends HttpServlet{
 			}
 		}
 		
+		if(operator!=null && operator.equals("=")) {
+			//계산구현 코드
+			ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
+			try {
+				exp = String.valueOf(engine.eval(exp));
+			} catch (ScriptException e) {
+				e.printStackTrace();
+			}
+		}
+		else if(operator!=null && operator.equals("C")) {
+			//쿠키를 지우는 코드가 아닌 쿠키에 들어갈 값을 빈문자로
+			exp="";
+		}
+		else {
+			exp+=(value==null)?"":value;
+			exp+=(operator==null)?"":operator;
+			exp+=(dot==null)?"":dot;
+		}
+		
 		
 		Cookie expCookie = new Cookie("exp", exp);
-		
+		if(operator!=null && operator.equals("C")) {
+			expCookie.setMaxAge(0);
+		}
 		response.addCookie(expCookie);
-		response.sendRedirect("calcPage");
+		response.sendRedirect("calcpage");
 	}
 }
